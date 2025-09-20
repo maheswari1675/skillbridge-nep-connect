@@ -39,9 +39,9 @@ const IndustryLogin = () => {
   };
 
   const benefits = [
-    { icon: Target, title: "Find Perfect Talent", description: "Access pre-screened students from top universities" },
-    { icon: Star, title: "Structured Programs", description: "NEP-compliant internship frameworks" },
-    { icon: TrendingUp, title: "Growth Analytics", description: "Track intern performance and ROI" },
+    { icon: Target, title: "Lightning-Fast Hiring", description: "Post internships and get applications instantly" },
+    { icon: Star, title: "Premium Talent Pool", description: "Access to top-tier NEP-trained students" },
+    { icon: TrendingUp, title: "AI-Powered Matching", description: "Smart algorithms find perfect candidates" },
   ];
 
   return (
@@ -75,12 +75,12 @@ const IndustryLogin = () => {
           <div className="relative z-10 flex flex-col justify-center px-12 text-white">
             <div className="animate-fade-in">
               <h1 className="text-4xl font-bold mb-6">
-                Discover Top Talent with
+                Recruit the Next Generation of
                 <br />
-                <span className="text-purple-200">Smart Hiring</span>
+                <span className="text-pink-200">Industry Innovators</span>
               </h1>
               <p className="text-xl mb-12 opacity-90">
-                Connect with India's brightest students through structured internship programs that deliver real business value.
+                Connect with skilled, NEP-trained students ready to drive your business forward through premium internship experiences.
               </p>
               
               <div className="space-y-6">
@@ -104,16 +104,16 @@ const IndustryLogin = () => {
               <div className="mt-12 p-6 bg-white/10 rounded-xl backdrop-blur-md">
                 <div className="grid grid-cols-3 gap-6 text-center">
                   <div>
-                    <div className="text-2xl font-bold">200+</div>
-                    <div className="text-sm opacity-80">Partner Companies</div>
+                    <div className="text-2xl font-bold">500+</div>
+                    <div className="text-sm opacity-80">Elite Companies</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold">5K+</div>
-                    <div className="text-sm opacity-80">Skilled Interns</div>
+                    <div className="text-2xl font-bold">15K+</div>
+                    <div className="text-sm opacity-80">Successful Hires</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold">4.6★</div>
-                    <div className="text-sm opacity-80">Average Rating</div>
+                    <div className="text-2xl font-bold">4.9★</div>
+                    <div className="text-sm opacity-80">Partner Rating</div>
                   </div>
                 </div>
               </div>
@@ -129,17 +129,17 @@ const IndustryLogin = () => {
                 <div className="w-16 h-16 bg-gradient-industry rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <Building2 className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-2xl font-bold">Industry Portal</CardTitle>
+                <CardTitle className="text-2xl font-bold">Industry Recruitment Hub</CardTitle>
                 <CardDescription>
-                  Access your hiring dashboard to post internships and manage talent
+                  Access premium talent pool and streamline your internship recruitment
                 </CardDescription>
                 <div className="flex justify-center space-x-2">
                   <Badge className="bg-industry-primary-light text-industry-primary border-industry-primary">
-                    Verified Partner
+                    Elite Partner
                   </Badge>
-                  <Badge className="bg-success-light text-success border-success">
-                    <Briefcase className="w-3 h-3 mr-1" />
-                    Enterprise
+                  <Badge className="bg-yellow-100 text-yellow-700 border-yellow-200">
+                    <Star className="w-3 h-3 mr-1" />
+                    Premium Tier
                   </Badge>
                 </div>
               </CardHeader>
@@ -225,23 +225,23 @@ const IndustryLogin = () => {
 
                 {/* Industry Features */}
                 <div className="pt-6 border-t border-border">
-                  <p className="text-sm font-medium mb-3 text-center">Hiring Dashboard Features:</p>
+                  <p className="text-sm font-medium mb-3 text-center">Recruitment Suite Features:</p>
                   <div className="grid grid-cols-2 gap-2 text-xs">
                     <div className="flex items-center space-x-2 p-2 rounded-lg bg-muted/50">
                       <CheckCircle className="w-3 h-3 text-success" />
-                      <span>Post Internships</span>
+                      <span>Smart Job Posting</span>
                     </div>
                     <div className="flex items-center space-x-2 p-2 rounded-lg bg-muted/50">
                       <CheckCircle className="w-3 h-3 text-success" />
-                      <span>Review Applications</span>
+                      <span>AI Candidate Matching</span>
                     </div>
                     <div className="flex items-center space-x-2 p-2 rounded-lg bg-muted/50">
                       <CheckCircle className="w-3 h-3 text-success" />
-                      <span>Manage Interns</span>
+                      <span>Advanced Analytics</span>
                     </div>
                     <div className="flex items-center space-x-2 p-2 rounded-lg bg-muted/50">
                       <CheckCircle className="w-3 h-3 text-success" />
-                      <span>Performance Analytics</span>
+                      <span>Brand Showcase</span>
                     </div>
                   </div>
                 </div>
