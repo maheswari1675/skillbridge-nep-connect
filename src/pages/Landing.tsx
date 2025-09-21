@@ -78,8 +78,8 @@ const Landing = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              India's Premier{" "}
-              <span className="text-gradient-primary">Internship Platform</span>
+              Welcome to{" "}
+              <span className="text-gradient-primary">prashiskshan</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               Bridging academia and industry with NEP 2020 compliant internships. 
@@ -128,7 +128,7 @@ const Landing = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Why Choose <span className="text-gradient-primary">InternHub</span>?
+              Why Choose <span className="text-gradient-primary">prashiskshan</span>?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Our platform combines cutting-edge technology with educational excellence 
@@ -204,7 +204,7 @@ const Landing = () => {
               Ready to Transform Your Internship Experience?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of students, faculty, and employers already using InternHub
+              Join thousands of students, faculty, and employers already using prashiskshan
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8 py-4">
@@ -227,7 +227,7 @@ const Landing = () => {
                 <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                   <GraduationCap className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold text-gradient-primary">InternHub</span>
+                <span className="text-xl font-bold text-gradient-primary">prashiskshan</span>
               </div>
               <p className="text-muted-foreground">
                 Transforming internship experiences across India with NEP 2020 compliance.
@@ -266,7 +266,7 @@ const Landing = () => {
           </div>
           
           <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-            <p>&copy; 2024 InternHub. All rights reserved. Built for the future of Indian education.</p>
+            <p>&copy; 2024 prashiskshan. All rights reserved. Built for the future of Indian education.</p>
           </div>
         </div>
       </footer>
