@@ -52,7 +52,7 @@ const StudentLogin = () => {
               <div className="w-8 h-8 bg-gradient-student rounded-lg flex items-center justify-center">
                 <GraduationCap className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient-student">InternHub</span>
+              <span className="text-xl font-bold text-gradient-student">prashiskshan</span>
             </Link>
             <div className="flex items-center space-x-4">
               <Link to="/auth/faculty" className="text-muted-foreground hover:text-foreground">
@@ -78,7 +78,7 @@ const StudentLogin = () => {
                 <span className="text-yellow-300">Premium Internships</span>
               </h1>
               <p className="text-xl mb-12 opacity-90">
-                Join thousands of students who've kickstarted their careers through InternHub's exclusive internship programs.
+                Join thousands of students who've kickstarted their careers through prashiskshan's exclusive internship programs.
               </p>
               
               <div className="space-y-6">

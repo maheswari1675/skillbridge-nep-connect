@@ -54,7 +54,7 @@ const IndustryLogin = () => {
               <div className="w-8 h-8 bg-gradient-industry rounded-lg flex items-center justify-center">
                 <Building2 className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient-industry">InternHub</span>
+              <span className="text-xl font-bold text-gradient-industry">prashiskshan</span>
             </Link>
             <div className="flex items-center space-x-4">
               <Link to="/auth/student" className="text-muted-foreground hover:text-foreground">
@@ -216,10 +216,10 @@ const IndustryLogin = () => {
 
                 <div className="text-center">
                   <p className="text-muted-foreground text-sm">
-                    New to InternHub?{" "}
-                    <a href="#" className="text-primary font-medium hover:underline">
+                    New to prashiskshan?{" "}
+                    <Link to="/register/industry" className="text-primary font-medium hover:underline">
                       Become a partner
-                    </a>
+                    </Link>
                   </p>
                 </div>
 

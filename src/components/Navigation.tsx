@@ -39,23 +39,27 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-smooth ${
-                  location.pathname === item.path
-                    ? "bg-primary text-primary-foreground"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                }`}
-              >
-                <item.icon className="w-4 h-4" />
-                <span>{item.name}</span>
-              </Link>
-            ))}
-            <Button className="btn-hero">
-              Get Started
-            </Button>
+            <Link
+              to="/internships"
+              className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-smooth ${
+                location.pathname === "/internships"
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted"
+              }`}
+            >
+              <Search className="w-4 h-4" />
+              <span>Explore Internships</span>
+            </Link>
+            <Link to="/post-internship">
+              <Button variant="outline" size="sm">
+                Post Internship
+              </Button>
+            </Link>
+            <Link to="/register/industry">
+              <Button className="btn-hero">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -78,24 +82,30 @@ const Navigation = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 animate-slide-up">
             <div className="flex flex-col space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.path}
-                  className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-smooth ${
-                    location.pathname === item.path
-                      ? "bg-primary text-primary-foreground"
-                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <item.icon className="w-4 h-4" />
-                  <span>{item.name}</span>
-                </Link>
-              ))}
-              <Button className="btn-hero mt-4">
-                Get Started
-              </Button>
+              <Link
+                to="/internships"
+                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-smooth ${
+                  location.pathname === "/internships"
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Search className="w-4 h-4" />
+                <span>Explore Internships</span>
+              </Link>
+              <Link
+                to="/post-internship"
+                className="text-muted-foreground hover:text-foreground hover:bg-muted px-3 py-2 rounded-lg transition-smooth"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Post Internship
+              </Link>
+              <Link to="/register/student">
+                <Button className="btn-hero mt-4">
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </div>
         )}

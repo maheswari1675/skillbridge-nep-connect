@@ -54,7 +54,7 @@ const AdminLogin = () => {
               <div className="w-8 h-8 bg-gradient-admin rounded-lg flex items-center justify-center">
                 <Shield className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient-admin">InternHub</span>
+              <span className="text-xl font-bold text-gradient-admin">prashiskshan</span>
             </Link>
             <div className="flex items-center space-x-4">
               <Link to="/auth/student" className="text-muted-foreground hover:text-foreground">
@@ -80,7 +80,7 @@ const AdminLogin = () => {
                 <span className="text-cyan-200">Advanced Administration</span>
               </h1>
               <p className="text-xl mb-12 opacity-90">
-                Manage the entire InternHub ecosystem with powerful tools for oversight, compliance, and optimization.
+                Manage the entire prashiskshan ecosystem with powerful tools for oversight, compliance, and optimization.
               </p>
               
               <div className="space-y-6">
@@ -131,7 +131,7 @@ const AdminLogin = () => {
                 </div>
                 <CardTitle className="text-2xl font-bold">Admin Console</CardTitle>
                 <CardDescription>
-                  Secure access to the InternHub administration panel
+                  Secure access to the prashiskshan administration panel
                 </CardDescription>
                 <div className="flex justify-center space-x-2">
                   <Badge className="bg-admin-primary-light text-admin-primary border-admin-primary">
@@ -153,7 +153,7 @@ const AdminLogin = () => {
                       <Input
                         id="email"
                         type="email"
-                        placeholder="admin@internhub.com"
+                        placeholder="admin@prashiskshan.com"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="pl-10 h-12"

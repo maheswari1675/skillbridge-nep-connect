@@ -51,7 +51,7 @@ const Landing = () => {
     {
       name: "Priya Sharma",
       role: "Computer Science Student, IIT Delhi",
-      content: "InternHub helped me find the perfect internship at a top tech company. The platform made everything so smooth!",
+      content: "prashiskshan helped me find the perfect internship at a top tech company. The platform made everything so smooth!",
       rating: 5,
     },
     {
@@ -63,7 +63,7 @@ const Landing = () => {
     {
       name: "Amit Patel",
       role: "HR Director, TechCorp India",
-      content: "We've found excellent interns through InternHub. The quality of candidates is outstanding.",
+      content: "We've found excellent interns through prashiskshan. The quality of candidates is outstanding.",
       rating: 5,
     },
   ];
@@ -207,12 +207,16 @@ const Landing = () => {
               Join thousands of students, faculty, and employers already using prashiskshan
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="px-8 py-4">
-                Sign Up as Student
-              </Button>
-              <Button size="lg" variant="outline" className="px-8 py-4 border-white text-white hover:bg-white hover:text-primary">
-                Register Institution
-              </Button>
+              <Link to="/register/student">
+                <Button size="lg" variant="secondary" className="px-8 py-4">
+                  Sign Up as Student
+                </Button>
+              </Link>
+              <Link to="/register/industry">
+                <Button size="lg" variant="outline" className="px-8 py-4 border-white text-white hover:bg-white hover:text-primary">
+                  Register as Industry
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
