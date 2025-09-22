@@ -50,11 +50,6 @@ const Navigation = () => {
               <Search className="w-4 h-4" />
               <span>Explore Internships</span>
             </Link>
-            <Link to="/post-internship">
-              <Button variant="outline" size="sm">
-                Post Internship
-              </Button>
-            </Link>
             <Link to="/register/industry">
               <Button className="btn-hero">
                 Get Started
@@ -93,13 +88,6 @@ const Navigation = () => {
               >
                 <Search className="w-4 h-4" />
                 <span>Explore Internships</span>
-              </Link>
-              <Link
-                to="/post-internship"
-                className="text-muted-foreground hover:text-foreground hover:bg-muted px-3 py-2 rounded-lg transition-smooth"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Post Internship
               </Link>
               <Link to="/register/student">
                 <Button className="btn-hero mt-4">
